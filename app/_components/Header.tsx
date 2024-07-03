@@ -16,7 +16,9 @@ const Header = () => {
         </Link>
         {isSignedIn ? (
           <div className="flex items-center gap-5">
-            <Button variant="outline">Dashboard</Button>
+            <Link href="/dashboard">
+              <Button variant="outline">Dashboard</Button>
+            </Link>
             <UserButton />
           </div>
         ) : (
