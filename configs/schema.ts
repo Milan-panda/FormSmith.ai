@@ -6,3 +6,4 @@ export const JsonForms = pgTable('JsonForms', {
   createdBy: varchar('createdBy').notNull(),
   createdAt: varchar('createdAt').notNull(),
 });
+ 
